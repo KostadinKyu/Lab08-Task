@@ -1,0 +1,61 @@
+.message-style{
+    /* border: 0.5rem outset black; */
+    border-radius: 12px;
+    padding: 0.5rem;
+    outline-offset: 0.5rem;
+    margin: 1rem;
+    background: white;
+    font-family: 'Comfortaa', cursive;
+    color: #999999;
+  }
+
+  @mixin messages_count{
+    color:white;
+    height: 1.5rem;
+    width: 33%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65%;
+    margin-top: -3%;
+  }
+  
+  @mixin align-text {
+    align-items: center;
+  }
+
+  .main-info{
+    @include align-text;
+    justify-content: flex-start;
+  }
+  $low-color:#e89d40;
+
+  .message-subject-height{
+    @include align-text;
+    color:#9335ff;
+  }
+  
+  .message-subject-low{
+    @include align-text;
+    color: $low-color;
+  }
+  
+  .message-count-height{
+    @include align-text;
+    @include messages_count;
+    background:#27aae1;
+  }
+  
+  .message-count-low{
+    @include align-text;
+    @include messages_count;
+    background:$low-color;  
+  }
+  
+  .more-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  

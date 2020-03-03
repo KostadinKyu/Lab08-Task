@@ -1,0 +1,91 @@
+{
+  "name": "caretakerPWA",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^1.0.1",
+    "@fortawesome/fontawesome-svg-core": "1.2.8",
+    "@fortawesome/free-brands-svg-icons": "5.5.0",
+    "@fortawesome/free-regular-svg-icons": "5.5.0",
+    "@fortawesome/free-solid-svg-icons": "5.5.0",
+    "@fortawesome/react-fontawesome": "0.1.3",
+    "@material-ui/core": "^4.9.0",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.40",
+    "@nivo/line": "^0.56.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^12.12.24",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-router-dom": "4.3.0",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.6",
+    "cra-append-sw": "^2.6.1",
+    "date-fns": "^2.0.0-alpha.25",
+    "dnssd": "^0.4.1",
+    "env-path": "1.0.7",
+    "file-saver": "2.0.0",
+    "jwt-decode": "2.2.0",
+    "leaflet": "^1.4.0",
+    "material-ui-pickers": "^2.1.1",
+    "mdns-js": "^1.0.3",
+    "mqtt": "3.0.0",
+    "node-sass": "^4.13.1",
+    "primeflex": "1.0.0-rc.1",
+    "primeicons": "^1.0.0",
+    "primereact": "2.0.0-beta.9",
+    "query-string": "6.2.0",
+    "react": "^16.12.0",
+    "react-app-polyfill": "^0.2.2",
+    "react-cookie-consent": "1.9.0",
+    "react-data-table-component": "^3.4.1",
+    "react-day-picker": "^7.3.2",
+    "react-dom": "^16.12.0",
+    "react-facebook-login": "4.1.1",
+    "react-google-login": "4.0.0",
+    "react-iframe": "^1.5.0",
+    "react-leaflet": "^2.2.1",
+    "react-loadable": "^5.5.0",
+    "react-router-dom": "^4.3.1",
+    "react-sanfona": "^1.5.0",
+    "react-scripts": "3.3.0",
+    "react-swipeable-views": "^0.13.1",
+    "react-table": "^6.10.3",
+    "react-tooltip": "^3.9.2",
+    "react-transition-group": "^2.5.3",
+    "sprintf-js": "1.1.1",
+    "styled-components": "^4.3.2",
+    "typescript": "^3.7.4",
+    "universal-cookie": "3.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-awesome-slider": "^2.4.0",
+    "react-redux": "^5.1.2",
+    "redux": "^4.0.5"
+  }
+}
