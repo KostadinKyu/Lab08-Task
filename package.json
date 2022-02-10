@@ -34,7 +34,7 @@
     "material-ui-pickers": "^2.1.1",
     "mdns-js": "^1.0.3",
     "mqtt": "3.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "primeflex": "1.0.0-rc.1",
     "primeicons": "^1.0.0",
     "primereact": "2.0.0-beta.9",
